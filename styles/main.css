@@ -66,15 +66,16 @@
     background-color: #FFF;
     max-width: 1600px;
     max-height: 1000px;
-  
+
 
 }
 
 .main-head {
-  
+
     width: 288px;
     height: 94px;
     color: #151414;
+
 
     font-size: 40px;
 
@@ -89,21 +90,166 @@
 .main-pic {
     width: 500px;
     height: 650px;
-    border-radius:0;
+    border-radius: 0;
     padding: 0px 0px 20px 200px;
-   /* background-color: rgba(241, 91, 34, 0.20); */
+    /* background-color: rgba(241, 91, 34, 0.20); */
 
 }
-.main-div{
+
+.main-div {
     background-image: none;
     margin-top: 150px;
 }
-.main-content{
+
+.main-content {
     padding: 200px 200px 0px 0px;
 }
 
+.section-head {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 150px;
 
-   
-   
-  
 
+}
+
+.icon-primary {
+    width: 92px;
+    height: 92px;
+}
+
+.head-primary {
+    color: #151414;
+
+    font-size: 30px;
+
+    font-weight: 700;
+    margin-top: 10px;
+
+}
+
+.para-primary {
+    color: #737272;
+
+    font-size: 25px;
+
+    font-weight: 500;
+    margin-top: 10px;
+
+}
+
+.section-div {
+    max-width: 1600px;
+    max-height: 1000px;
+    background-color: #FFF;
+}
+
+.section-skill>ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0px 60px 0px 60px;
+}
+
+body {
+    max-width: 1600px;
+
+}
+
+.back {
+    width: 1140px;
+    height: 300px;
+    background-image:
+        linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url(../images/watch.png);
+    background-size: cover;
+    margin: 180px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 78px 0px 0px 80px;
+}
+
+.back-head {
+    color: #FFF;
+
+    font-size: 40px;
+
+    font-weight: 700;
+
+}
+
+.back-button {
+    width: 160px;
+    height: 65px;
+    color: #F15B22;
+
+    font-size: 20px;
+
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+
+}
+
+.sec {
+    background-color: #FFF;
+}
+
+.footer-head {
+    color: #F8F8F8;
+    font-size: 45px;
+
+    font-weight: 700;
+
+}
+
+footer {
+    background-color: #151414;
+    width: 1600px;
+    height: 560px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.color {
+    color: #FFF;
+    font-size: 18px;
+}
+
+.sub {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.input {
+    background-color: #151414;
+    color: #F3F3F3;
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    margin-top: 30px;
+}
+.subscribe{
+    margin-top: 15px;
+    height: 57px;
+}
+.social{
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+}
+.social > li{
+    padding: 10px;
+}
+.lastone{
+    margin: 0px 150px 120px 0px;
+}
